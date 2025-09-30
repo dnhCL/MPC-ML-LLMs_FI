@@ -1,0 +1,13 @@
+[project]
+name = "mpc-ml-llms-fi"
+version = "0.0.1"
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["models", "mpc", "sim", "utils"]

@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Entornos
+.venv/
+env/
+venv/
+.ipynb_checkpoints/
+*.log
+
+# Datos (mantener .gitkeep)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/external/*
+!data/external/.gitkeep
+
+# Experimentos (mantener .gitkeep)
+experiments/*
+!experiments/.gitkeep
+
+# Configuración local de IDEs
+.vscode/
+.idea/
+*.iml
+
+# Archivos temporales
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
